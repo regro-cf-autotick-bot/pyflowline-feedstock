@@ -1,5 +1,5 @@
 {% set name = "pyflowline" %}
-{% set version = "0.1.28" %}
+{% set version = "0.1.29" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pyflowline-{{ version }}.tar.gz
-  sha256: ad92d5586e9d5a736616ab81b1bd0520ee64b4587b600563f69581d035da455e
+  sha256: b6e97e55e41f807cc6b3e8ba43b3d97e1650a1e3ac3893db9cf868bffdefe1a5
 
 build:
   noarch: python
