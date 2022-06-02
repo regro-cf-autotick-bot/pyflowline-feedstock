@@ -19,7 +19,7 @@ requirements:
     - pip
     - python >=3.8
   run:
-    - gdal
+    - gdal==3.2
     - netcdf4
     - numpy
     - python >=3.8
