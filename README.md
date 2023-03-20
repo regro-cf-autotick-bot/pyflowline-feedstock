@@ -1,11 +1,11 @@
-About pyflowline
-================
+About pyflowline-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyflowline-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/changliao1025/pyflowline
 
 Package license: BSD-2-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pyflowline-feedstock/blob/main/LICENSE.txt)
 
 Summary: River network for Earth Science
 
