@@ -44,7 +44,5 @@ about:
   license_file: LICENSE.md
 
 extra:
-  channels:
-    - conda-forge
   recipe-maintainers:
     - changliao1025
