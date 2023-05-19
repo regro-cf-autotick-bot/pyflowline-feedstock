@@ -1,4 +1,4 @@
-{% set name = "hexwatershed" %}
+{% set name = "pyflowline" %}
 {% set git_rev = "main" %}
 {% set version = "0.2.3" %}
 
