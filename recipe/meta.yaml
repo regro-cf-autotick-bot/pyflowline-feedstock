@@ -12,7 +12,7 @@ source:
 
 build:  
   noarch: python
-  number: 0
+  number: 1
   
 requirements:  
   
@@ -22,17 +22,19 @@ requirements:
     - pip
   
   host:
-    - python >=3.8  
+    - python {{ python_min }}
     - pip
  
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - numpy
     - matplotlib-base
     - gdal
     - netCDF4
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pyflowline
   
